@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ordered and unordered list nested</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      .tags {
+        font-weight: bolder;
+      }
+      ul>li{
+        color: #101682;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Formatting tags :</h3>
+    <ol>
+      <li>
+        <span class="tags">Strong </span>
+        <ul>
+          <li>Use cases</li>
+          <dd>
+            Emphasizing Important Information
+            <br />
+            Key Points in Articles or Blog Posts
+            <br />
+            Highlighting Keywords or Search Terms
+            <br />
+            Creating Stylish Headlines:
+          </dd>
+          <li>Best practice</li>
+          <dd>
+            Semantic Meaning: The "strong" tag should be used to convey semantic meaning rather than just for visual styling. It is intended to indicate content that is of particular importance or relevance within its context. Avoid using the "strong" tag solely for cosmetic purposes.
+            <br />
+            Avoid Overuse: Use the "strong" tag sparingly and only on the most important or significant parts of your content. Overusing it can diminish its impact and make it less meaningful. Reserve it for truly important information that needs emphasis.
+            <br />
+            Don't Rely on "strong" for Accessibility: While the "strong" tag may visually render as bold text by default, it is not meant to be solely relied upon for providing accessibility or making text stand out. Use appropriate CSS techniques to control the visual appearance of the text, ensuring it remains accessible to all users, including those with visual impairments.
+            <br />
+            Consider Alternative Tags: Depending on the specific context, there may be alternative tags that better suit the meaning of your content. For example, if you want to highlight a specific keyword, the "mark" tag might be more appropriate, indicating a marked or highlighted section of the text.
+          </dd>
+        </ul>
+      </li>
+      <li>
+        <span class="tags">i </span>
+        <ul>
+          <li>Use cases</li>
+          <dd>
+            Styling Book Titles or Foreign Words: 
+            <br/>
+            Noting Variable Names or Technical Terms: 
+            <br/>
+            Highlighting Quotes or Citations
+            <br>
+            Author's Thoughts or Personal Opinions
+          </dd>
+          <li>Best practices</li>
+          <dd>
+            Consider Accessibility: Ensure that the use of the "i" tag doesn't hinder accessibility. Italics can be more challenging to read for some individuals, especially those with visual impairments. Avoid using italics excessively or for long blocks of text. If you have concerns about accessibility, consult accessibility guidelines and consider alternative ways to convey information without relying solely on visual cues.
+            <br/>
+            Use Descriptive Text: If you decide to use the "i" tag, ensure that the content within it is descriptive and meaningful on its own. Avoid using the "i" tag on text that doesn't provide any valuable information or context.
+            <br/>
+            Use for Presentational Purposes: The "i" tag should primarily be used for presentational purposes, such as applying italics to text, rather than conveying specific semantic meaning. Avoid using the "i" tag to add emphasis or importance to text. Instead, consider using appropriate semantic tags like "em" for emphasis or "strong" for stronger emphasis.
+          </dd>
+        </ul>
+      </li>
+      <li>
+        <span class="tags">u </span>
+        <ul>
+          <li>Use cases</li>
+          <dd>indicating Text Underline</dd>
+          <li>Best practices</li>
+          <dd>
+            Use the "u" tag only for text that should be visually underlined.
+            <br/>
+            Avoid using the "u" tag solely for cosmetic purposes.
+            <br>
+            Consider accessibility implications, as underlined text may be associated with hyperlinks.
+        </dd>
+        </ul>
+      </li>
+      <li>
+        <span class="tags">sup </span>
+        <ul>
+          <li>Use cases</li>
+          <dd>
+            Representing Superscript Text	
+            <br>
+          </dd>
+          <li>Best practices</li>
+          <dd>
+            Use the "sup" tag to indicate superscript text, typically used for mathematical exponents or footnotes.
+            <br>
+            Avoid using the "sup" tag solely for cosmetic purposes.
+            <br>
+            Consider accessibility implications, as superscript text may be associated with hyperlinks.
+            <br>
+            Do not overuse the "sup" tag; use it only when necessary for clarity or proper notation.
+          </dd>
+        </ul>
+      </li>
+      <li>
+        <span class="tags">sub </span>
+        <ul>
+          <li>Use cases</li>
+          <dd>
+            Representing Subscript Text	
+            <br>
+          </dd>
+          <li>Best practices</li>
+          <dd>
+            Use the "sub" tag to indicate subscript text, typically used for mathematical subscripts or chemical formulas.
+            <br>
+            Avoid using the "sub" tag solely for cosmetic purposes.
+            <br>
+            Consider accessibility implications, as subscript text may be associated with hyperlinks.
+            <br>
+            Do not overuse the "sub" tag; use it only when necessary for clarity or proper notation.
+          </dd>
+        </ul>
+      </li>
+    </ol>
+  </body>
 </html>
